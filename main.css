@@ -55,7 +55,7 @@ body {
   display: none;
   background-color: var(--clr3);
   font-size: 1.3em;
-  height: 35vh;
+  height: 330px;
   border-bottom-left-radius: 50px;
   z-index: 999;
   position: fixed;
