@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTland</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navimg">O</div>
+
+        <div class="navlogo">
+            <a href="index.html" class="navlogotxt"><span>NFT</span>land</a>
+        </div>
+
+        <div class="mainnav" id = "mainnav">
+            <div class="mobile-menu-close" id="mobile-menu-close">
+                <img src="source/menu-close.svg" id="menu-img-close" class="menu-img-close">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Faq</a></li>
+            </ul>
+        </div>
+
+        <div class="navcta">
+            JOIN NOW!
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <img src="source/menu.svg" id="menu-img" class="menu-img">
+        </div>
+
+    </div>
+
+    <div class="hero">
+        <div class="hero-text">
+            <div class="hero-bigtext">NFTs -- New, Fairer Ticketing.</div>
+            <div class="hero-smalltext">Are you a degenerate weeb? Do you wish to collect all of your favorite waifus? we at NFTland got you covered with our wide range of waifu NFTs.</div>
+            <div class="hero-btn">
+                <div class="hero-cta">JOIN NOW!</div>
+                <div class="hero-cta2">Start selling</div>
+            </div>
+        </div>
+
+        <div class="hero-illu"><img src="source/hero-2.png" alt=""></div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-about">
+            <h3 class="footer-title"><span>NFT</span>land</h3>
+            <p class="footer-paragraph">The world’s first and largest digital marketplace for waifu non-fungible tokens (NFTs). All the other ones are FAKE. Buy, sell, and discover exclusive digital items.</p>
+        </div>
+
+        <div class="seperate"></div>
+
+        <div class="footer-links">
+            <div class="footer-main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Faq</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="seperate"></div>
+
+        <div class="footer-socials-follow">
+            <h3>Follow us :</h3>
+
+            <div class="footer-socials-link">
+                <a href=""><img src="source/instagram-clr.svg" alt=""></a>
+                <a href=""><img src="source/facebook-clr.svg" alt=""></a>
+                <a href=""><img src="source/twitter-clr.svg" alt=""></a>
+                <a href=""><img src="source/telegram-clr.svg" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-menu')
+              mobileBtnExit = document.getElementById('mobile-menu-close')
+              nav = document.getElementById('mainnav')
+              isOpen = false
+
+
+        mobileBtn.addEventListener('click', () => {
+            nav.setAttribute("style", "display:block;");
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.setAttribute("style", "display:none;");
+        })
+
+    </script>
+
+</body>
+</html>
