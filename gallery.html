@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTland</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navimg">O</div>
+
+        <div class="navlogo">
+            <div class="navlogotxt"><span>NFT</span>land</div>
+        </div>
+
+        <div class="mainnav" id="mainnav">
+            <div class="mobile-menu-close" id="mobile-menu-close">
+                <img src="source/menu-close.svg" id="menu-img-close" class="menu-img-close">
+            </div>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Faq</a></li>
+            </ul>
+        </div>
+
+        <div class="navcta">
+            JOIN NOW!
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <img src="source/menu.svg" alt="" class="menu-img">
+        </div>
+    </div>
+
+    
+
+
+    <div class="gallery-container">
+        <div class="title-text"><p>Our <span>NFT</span> Gallery :</p></div>
+        
+        <div class="container-card">
+
+            <div class="card-container">
+                <div class="card-pic"><img src="source/waifu1.jpg"></div>
+
+                <div class="card-text">
+                    <div class="card-title">Samurai gal #6969</div><br>
+                    <div class="card-desc">Back from the war. She has the ability to choke you with her thighs or slice you up with her katana!</div>
+                    <div class="card-detail">
+                        <div class="card-price">
+                            <img src="source/icon-ethereum.svg">
+                            <p class="">0.069 ETH</p>
+                        </div>
+                        <div class="card-time">
+                            <img src="source/icon-clock.svg">
+                            <p>3 days left</p>
+                        </div>
+                    </div>
+                    <div class="seperate"></div>
+                    <div class="card-creator">
+                        <img class="card-avatar" src="source/avatar.png">
+                        <p class="creator-name">Creation of <span>Jules</span></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card-container">
+                <div class="card-pic"><img src="source/waifu2.png"></div>
+
+                <div class="card-text">
+                    <div class="card-title">Furry GF #e621</div><br>
+                    <div class="card-desc">Really? She can purr for you i guess. What kind of weirdo would want this?</div>
+                    <div class="card-detail">
+                        <div class="card-price">
+                            <img src="source/icon-ethereum.svg">
+                            <p class="">0.0001 ETH</p>
+                        </div>
+                        <div class="card-time">
+                            <img src="source/icon-clock.svg">
+                            <p>6 days left</p>
+                        </div>
+                    </div>
+                    <div class="seperate"></div>
+                    <div class="card-creator">
+                        <img class="card-avatar" src="source/avatar.png">
+                        <p class="creator-name">Creation of <span>Jules</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card-pic"><img src="source/waifu3.jpg"></div>
+
+                <div class="card-text">
+                    <div class="card-title">Loli #0911</div><br>
+                    <div class="card-desc">Officer i swear she just looks 12 she's actually a 200 years old goddess!</div>
+                    <div class="card-detail">
+                        <div class="card-price">
+                            <img src="source/icon-ethereum.svg">
+                            <p class="">0.911 ETH</p>
+                        </div>
+                        <div class="card-time">
+                            <img src="source/icon-clock.svg">
+                            <p>2 days left</p>
+                        </div>
+                    </div>
+                    <div class="seperate"></div>
+                    <div class="card-creator">
+                        <img class="card-avatar" src="source/avatar.png">
+                        <p class="creator-name">Creation of <span>Jules</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="footer-about">
+        <h3 class="footer-title"><span>NFT</span>land</h3>
+        <p class="footer-paragraph">The world’s first and largest digital marketplace for waifu non-fungible tokens (NFTs). All the other ones are FAKE. Buy, sell, and discover exclusive digital items.</p>
+    </div>
+
+    <div class="seperate"></div>
+
+    <div class="footer-links">
+        <div class="footer-main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Faq</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="seperate"></div>
+
+    <div class="footer-socials-follow">
+        <h3>Follow us :</h3>
+
+        <div class="footer-socials-link">
+            <a href=""><img src="source/instagram-clr.svg" alt=""></a>
+            <a href=""><img src="source/facebook-clr.svg" alt=""></a>
+            <a href=""><img src="source/twitter-clr.svg" alt=""></a>
+            <a href=""><img src="source/telegram-clr.svg" alt=""></a>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    const mobileBtn = document.getElementById('mobile-menu')
+          mobileBtnExit = document.getElementById('mobile-menu-close')
+          nav = document.getElementById('mainnav')
+          isOpen = false
+
+
+    mobileBtn.addEventListener('click', () => {
+        nav.setAttribute("style", "display:block;");
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.setAttribute("style", "display:none;");
+    })
+
+</script>
+
+</body>
+</html>
