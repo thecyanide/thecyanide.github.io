@@ -296,10 +296,7 @@ body {
   color: white;
   font-family: rubik-medium;
 }
-.gallery-container .container-card .card-container:hover {
-  cursor: pointer;
-  width: 17.5%;
-}
+
 
 .footer {
   display: flex;
@@ -497,6 +494,11 @@ body {
   .gallery-container .container-card .card-container {
     width: 17%;
     margin: 30px;
+  }
+  
+  .gallery-container .container-card .card-container:hover {
+  cursor: pointer;
+  width: 17.5%;
   }
 
   .footer {
