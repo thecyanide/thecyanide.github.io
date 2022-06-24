@@ -152,51 +152,6 @@ body {
   width: 100%;
 }
 
-.form-container {
-  display: flex;
-  border-color: var(--sec);
-  border-radius: 30px;
-  border-style: outset;
-  border-width: 2px;
-  padding: 23px;
-  margin: 50px 15px;
-  width: 80%;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-.form-container .form-left {
-  font-size: 1em;
-  display: flex;
-}
-.form-container .form-left .form-txt {
-  width: 80%;
-}
-.form-container .form-right {
-  margin: 0;
-  padding: 0;
-  width: 80%;
-}
-.form-container .form-right form input {
-  background-color: var(--prim);
-  color: white;
-  border-radius: 15px;
-  margin: 2%;
-}
-.form-container .form-right .form-cta {
-  background-color: var(--sec);
-  color: var(--prim);
-  padding: 12px;
-  border-radius: 20px;
-  font-family: rubik-medium;
-  font-size: 0.9em;
-  width: 25%;
-  margin: 15px 0px;
-  text-align: center;
-}
 
 .gallery-container {
   display: flex;
@@ -296,7 +251,6 @@ body {
   color: white;
   font-family: rubik-medium;
 }
-
 
 .footer {
   display: flex;
@@ -495,10 +449,9 @@ body {
     width: 17%;
     margin: 30px;
   }
-  
-  .gallery-container .container-card .card-container:hover {
-  cursor: pointer;
-  width: 17.5%;
+  .gallery-container .card-container:hover {
+    cursor: pointer;
+    width: 17.5%;
   }
 
   .footer {
